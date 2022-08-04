@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+.pp{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
+}
+.sklIcn{
+    font-size: 200px;
+}
+.skillIcons{
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem ;
+    flex-wrap: wrap;
+}
+.home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 3rem;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.644);
+}
+
+.links {
+    padding: 1em;
+    display: flex;
+    gap: 25px;
+}
+
+.name {
+    color: rgba(32, 35, 35, 0.867);
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1201px) {
+    .home {
+        padding: 8rem;
+    }
+
+    .name {
+        font-size: 5.8rem;
+    }
+
+    .header {
+        margin-right: 450px;
+        gap: 30px;
+    }
+
+    .title {
+        text-align: center;
+        margin: 0px;
+        color: rgba(0, 0, 0, 0.469);
+    }
+
+    .pp {
+        max-height: 400px;
+        max-width: 400px;
+        min-height: 300px;
+        min-width: 300px;
+        border: 10px solid rgba(11, 11, 11, 0.212);
+        border-radius: 50%;
+    }
+
+}
+
+.leftPara,
+.rightPara {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.666);
+    font-weight: lighter;
+    /* padding-top: 1em; */
+    text-align: center;
+    max-width: 320px;
+}
+
+@media screen and (max-width: 1200px) {
+    .home {
+        padding: 6rem;
+    }
+
+    .header {
+        margin-right: 150px;
+        gap: 30px;
+    }
+
+    .title {
+        text-align: center;
+        margin: 0px;
+        color: rgba(0, 0, 0, 0.469);
+    }
+
+    .name {
+        font-size: 4rem;
+    }
+
+    .pp {
+        max-height: 300px;
+        max-width: 300px;
+        min-height: 200px;
+        min-width: 200px;
+        border: 10px solid rgba(11, 11, 11, 0.212);
+        border-radius: 50%;
+    }
+
+    .navbar-main {
+        background-color: aquamarine;
+    }
+
+
+
+
+
+}
+
+.aboutTitle {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    color: rgba(43, 43, 43, 0.843);
+    font-weight: 800;
+}
+
+@media screen and (max-width: 570px) {
+    .home {
+        padding: 4rem 10px;
+    }
+
+    .header {
+        margin-right: 10px;
+        gap: 5px;
+    }
+
+    .title {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0px;
+        color: rgba(0, 0, 0, 0.469);
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .pp {
+        min-width: 80px;
+        min-height: 80px;
+        border: 5px solid rgba(11, 11, 11, 0.212);
+        border-radius: 50%;
+    }
+
+    .aboutTitle {
+        font-size: 1.3rem;
+    }
+    .sklIcn{
+        font-size: 50px;
+    }
+    .leftPara,
+    .rightPara {
+        font-size: 1rem;
+    }
+}
+
+.para {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.about {
+    /* background-color: rgba(92, 173, 235, 0.142); */
+    background-color: rgba(138, 142, 145, 0.122);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    border-bottom: 1px solid #000;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    border-bottom: 1px solid #000;
+
+}
+.slider{
+}
+.projects{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    background-color: rgba(138, 142, 145, 0.122);
+    border-bottom: 1px solid #000;
+
+}
+
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    border-bottom: 1px solid #000;
+
+
+}
+.info{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    background: rgba(0, 0, 0, 0.846);
+    color: white;
+    
+}
+
+#navbar{
+    position: fixed;
+}
