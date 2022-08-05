@@ -5,8 +5,8 @@ html {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
 .skillIcon{
-    max-height: 200px;
-    max-width: 200px;
+    height: 200px;
+    width: 200px;
     
 }
 
