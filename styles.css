@@ -5,9 +5,13 @@ html {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
 .skillIcon{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     
+}
+.projectImg{
+     max-height: 500px; 
+     max-width: 1000px;
 }
 
 .info{
@@ -104,7 +108,10 @@ html {
     .home {
         padding: 6rem;
     }
-
+    /* .projectImg{
+        height: 400px;
+        width: 400px;
+    } */
     .header {
         margin-right: 150px;
         gap: 30px;
@@ -160,6 +167,10 @@ html {
         margin-right: 10px;
         gap: 5px;
     }
+    .projectImg{
+        max-height: 100px; 
+        max-width: 600px;
+   }
 
     .title {
         font-size: 1rem;
