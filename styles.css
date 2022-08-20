@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+h5{
+    color: #000;
+}
 .pp{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px;
 }
@@ -284,3 +287,5 @@ footer{
 #navbar{
     position: fixed;
 }
+
+
